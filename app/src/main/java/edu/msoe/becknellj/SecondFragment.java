@@ -29,6 +29,8 @@ public class SecondFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         view.findViewById(R.id.image_second);
+
+        //used rating bar documentation from AhbiAndroid rating bar example, inspired design in submit button listener
         RatingBar bar = view.findViewById(R.id.ratingBar);
         Button submit_button = view.findViewById(R.id.submit_button);
         bar.setOnRatingBarChangeListener(new RatingBar.OnRatingBarChangeListener(){
